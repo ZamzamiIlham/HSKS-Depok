@@ -2,7 +2,7 @@ import { BenefitItem } from "../constants"
 
 const Benefit = () => {
   return (
-    <div className="max-container flex flex-col gap-8 py-6">
+    <div className="max-container flex flex-col gap-8 py-12">
         <div className="flex flex-col items-center gap-2">
                 <p className="text-gray-400">Mengapa Homeschooling Kak Seto?</p>
                 <h1 className="text-2xl font-bold text-center max-w-[400px]"> <span className="text-primary">Kami Percaya</span><br/>Setiap anak berhak memperoleh pendidikan yang layak bagi dirinya</h1>

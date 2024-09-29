@@ -1,6 +1,7 @@
+import { title } from "framer-motion/client";
 import { instagramGray,telegramGray,tiktokGray,whatsAppGray,youtubeGray } from "../assets/icons/Sosmed";
 import { instgram,Yt, Wa,Tiktok,Tele } from "../assets/icons/Sosmed";
-import { Benefit1, Benefit2, Benefit3, Benefit4, IconCheck } from "../assets/images";
+import { Asteristik, Benefit1, Benefit2, Benefit3, Benefit4, IconCheck, Testi1, Testi2 } from "../assets/images";
 
 export const navLinks = [
     {href: "#tentang", label:"Tentang"},
@@ -100,4 +101,96 @@ export const reosenItem = [
         title: 'Mengembangkan Potensi Anak',
         description: 'Menggunakan pendekatan individual yang mendorong pengembangan minat dan bakat setiap peserta didik'
     }
+]
+
+export const TestimoniItem =[
+    {
+        image   : Testi1,
+        name    : 'Bunda Amalia',
+        status  : 'Ibunda Siswa',
+        description : 'Sebelumnya Fathan sangat pemalu, Kurang bersosial dan banyak distraksi belajar sehingga tidak nyaman. Namun sejak bersekolah di HS Kak Seto Depok Fathan sudah bisa lebih berkonsentrasi, lebih ceria dan sosialisasinya lebih baik dari pada sebelumnya'
+    },
+    {
+        image   : Testi2,
+        name    : 'Kak Seto Mulyadi',
+        status  : 'Pembina Sekolah Kak Seto',
+        description : 'Dari banyaknya Cabang Homeschooling Kak Seto, di Depok ini merupakan bentuk nyata dari ‘Homeschooling’ sebenarnya, suasana belajar sangat asri dan nyaman seperti di rumah'
+    },
+    {
+        image   : Testi2,
+        name    : 'Kak Seto Mulyadi3',
+        status  : 'Pembina Sekolah Kak Seto',
+        description : 'Dari banyaknya Cabang Homeschooling Kak Seto, di Depok ini merupakan bentuk nyata dari ‘Homeschooling’ sebenarnya, suasana belajar sangat asri dan nyaman seperti di rumah'
+    },
+    {
+        image   : Testi1,
+        name    : 'Bunda Amalia4',
+        status  : 'Ibunda Siswa',
+        description : 'Sebelumnya Fathan sangat pemalu, Kurang bersosial dan banyak distraksi belajar sehingga tidak nyaman. Namun sejak bersekolah di HS Kak Seto Depok Fathan sudah bisa lebih berkonsentrasi, lebih ceria dan sosialisasinya lebih baik dari pada sebelumnya'
+    }
+]
+
+export const BestProgram = [
+    {
+        types   : 'Komunitas',
+        items    : [
+            {
+                icon          : Asteristik,
+                title         : 'Kelas Ekslusif',
+                description   : 'Kapasitas siswa di kelas minimal 1 siswa dan maksimal 12 siswa' 
+            },
+            {
+                icon          : Asteristik,
+                title         : 'Tutor Berkualitas',
+                description   : 'Tutor terjamin berkualitas dan interaktif dengan para siswa' 
+            },
+            {
+                icon          : Asteristik,
+                title         : 'Media pembelajaran berbasis teknologi',
+                description   : 'Sistem pembelajaran Multi Channel Learning menggunakan Learning Management System sebagai media pembelajaran' 
+            },
+            {
+                icon          : Asteristik,
+                title         : 'Konten Pembelajaran Digital',
+                description   : 'Konten pembelajaran digital yang beraneka ragam dan menarik' 
+            },
+            {
+                icon          : Asteristik,
+                title         : 'Waktu belajar 3x per minggu',
+                description   : 'Pembelajaran secara langsung bersama tutor 3x per minggu' 
+            }
+        ]
+    },
+    {
+        types   : 'Komunitas Online',
+        items    : [
+            {                
+                icon        : Asteristik,
+                title       : 'Belajar secara fleksibel',
+                description : 'Pembelajaran dapat dilakukan secara online dari rumah atau dimana saja'                
+            },
+            {                
+                icon        : Asteristik,
+                title       : 'Tutor berkualitas',
+                description : 'Tutor terjamin berkualitas dan interaktif dengan para siswa'                
+            },
+            {                
+                icon        : Asteristik,
+                title       : 'Media pembelajaran berbasis teknologi',
+                description : 'Sistem pembelajaran Multi Channel Learning menggunakan Learning Management System sebagai media pembelajaran'                
+            },
+            {                
+                icon        : Asteristik,
+                title       : 'Konten Pembelajaran Digital',
+                description : 'Konten pembelajaran digital yang beraneka ragam dan menarik'                
+            },
+            {                
+                icon        : Asteristik,
+                title       : 'Waktu belajar 3x per minggu',
+                description : 'Pembelajaran secara langsung bersama tutor 3x per minggu'                
+            }
+        ]
+    },
+   
+  
 ]

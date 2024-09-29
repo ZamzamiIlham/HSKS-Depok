@@ -4,7 +4,7 @@ import { reosenItem } from "../constants"
 
 const Reason = () => {
   return (
-    <div className="max-container py-8 px-5">
+    <div className="max-container py-12 px-5">
         <div className="grid items-center grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex flex-col items-center col-span-1 ">
                 <h1 className="text-3xl font-bold ">Mengapa <br /> Homeschooling?</h1>

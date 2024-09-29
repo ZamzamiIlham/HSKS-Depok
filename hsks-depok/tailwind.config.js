@@ -26,11 +26,12 @@ export default {
         "primary": "#1A69F0",
         "secondary": "#3D84FF",
         "green": "#04AB6B",
-        "bg-blue":"#ECF7FF",
+        "blue-soft":"#ECF7FF",
+        
       },
       screens:{
+        'xl' : '1220px',
         "wide":"1440px",
-        "xs:" :"400px"
       },
     },
   },

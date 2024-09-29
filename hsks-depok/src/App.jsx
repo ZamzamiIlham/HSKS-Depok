@@ -1,4 +1,4 @@
-import { BannerSection, Benefit, Contibution, Home, Reason, SchoolPartners} from "./sections";
+import { BannerSection, Benefit, Contibution, Home, ListPorgram, Reason, SchoolPartners, Testimoni} from "./sections";
 import { Nav } from "./components";
 
 const App = () => {
@@ -11,6 +11,8 @@ const App = () => {
       <Benefit/>
       <Contibution/> 
       <Reason/>
+      <Testimoni/>
+      <ListPorgram/>
     </main>
   )
 }

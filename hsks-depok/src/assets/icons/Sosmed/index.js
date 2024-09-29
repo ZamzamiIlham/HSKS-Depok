@@ -10,6 +10,9 @@ import Wa from './Wa.png'
 import Tiktok from './Tiktok.png'
 import Tele from './Tele.png'
 
+import arrowLeft from '../Arrow/ArrowLeft.png'
+import arrowRight from '../Arrow/ArrowRigth.png'
+
 export {
     instagramGray,
     telegramGray,
@@ -20,5 +23,7 @@ export {
     Yt,
     Wa,
     Tiktok,
-    Tele
+    Tele,
+    arrowLeft,
+    arrowRight
 }

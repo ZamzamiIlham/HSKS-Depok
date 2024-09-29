@@ -3,7 +3,7 @@ import { Crousal } from "../assets/images";
 
 const SchoolPartners = () => {
   return (
-    <div className="max-container py-8">
+    <div className="max-container py-12">
       <Scrollar speed="medium">
         {Crousal.map((logo, index) => (
           <img 

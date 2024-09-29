@@ -4,7 +4,8 @@ import Benefit from "./Benefit";
 import BannerSection from "./Banner";
 import Contibution from "./Contibution";
 import Reason from "./Reason";
-
+import Testimoni from "./Testimoni";
+import ListPorgram from "./ListPorgram";
 
 export{
     Home,
@@ -12,5 +13,7 @@ export{
     BannerSection,
     Benefit,
     Contibution,
-    Reason
+    Reason,
+    Testimoni,
+    ListPorgram
 }

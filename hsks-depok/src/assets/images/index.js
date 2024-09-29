@@ -19,6 +19,9 @@ import Benefit3 from './Benefit/Benefit3.png'
 import Benefit4 from './Benefit/Benefit4.png'
 import Book from './Other/Book.png'
 import IconCheck from './Other/icon-check.png'
+import Testi1 from './Testimonies/Test1.png'
+import Testi2 from './Testimonies/Test2.png'
+import Asteristik from './Asterisk.png'
 
 export{
     BgImage,
@@ -27,7 +30,10 @@ export{
     Benefit3,
     Benefit4,
     Book,
-    IconCheck
+    IconCheck,
+    Testi1,
+    Testi2,
+    Asteristik
 }
 
 export const Crousal = [

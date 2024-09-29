@@ -2,7 +2,7 @@ import { ContributionItem } from "../constants"
 
 const Contibution = () => {
   return (
-    <div className="max-container py-8">
+    <div className="max-container py-12">
         <div className="flex flex-col items-center gap-8">
             <h1 className="text-3xl font-bold text-center">Kontirbusi Kami dalam Pendidikan Indonesia</h1>
                 <div className="flex justify-center flex-wrap gap-12 ">
