@@ -6,6 +6,8 @@ import Contibution from "./Contibution";
 import Reason from "./Reason";
 import Testimoni from "./Testimoni";
 import ListPorgram from "./ListPorgram";
+import TahapPendaftaran from "./TahapPendaftaran";
+import ConnectWithUs from "./ConnectWithUs";
 
 export{
     Home,
@@ -15,5 +17,7 @@ export{
     Contibution,
     Reason,
     Testimoni,
-    ListPorgram
+    ListPorgram,
+    TahapPendaftaran,
+    ConnectWithUs
 }

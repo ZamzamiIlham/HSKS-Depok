@@ -1,7 +1,7 @@
-import { title } from "framer-motion/client";
+import { image, title } from "framer-motion/client";
 import { instagramGray,telegramGray,tiktokGray,whatsAppGray,youtubeGray } from "../assets/icons/Sosmed";
 import { instgram,Yt, Wa,Tiktok,Tele } from "../assets/icons/Sosmed";
-import { Asteristik, Benefit1, Benefit2, Benefit3, Benefit4, IconCheck, Testi1, Testi2 } from "../assets/images";
+import { Asteristik, Benefit1, Benefit2, Benefit3, Benefit4, IconCheck, Kids, Num1, Num2, Num3, Num4, Testi1, Testi2 } from "../assets/images";
 
 export const navLinks = [
     {href: "#tentang", label:"Tentang"},
@@ -193,4 +193,28 @@ export const BestProgram = [
     },
    
   
+]
+
+export const TahapPendaftaranItem = [
+    {
+        icon    : Num1,
+        title   : 'Konsultasi',
+        desct   : 'Ayah dan Bunda dapat melakukan konsultasi terlebih dahulu dengan kami mengenai program yang sesuai untuk Ananda.'
+    },
+    {
+        icon    : Num2,
+        title   : 'Pendaftaran',
+        desct   : 'Setelah menemukan program yang sesuai, Ayah dan Bunda dapat mendaftarkan Ananda pada program tersebut.'
+    },
+    {
+        icon    : Num3,
+        title   : 'Proses Administrasi',
+        desct   : 'Screening awal merupakan proses seleksi berkas utama yang harus dipenuhi sebelum proses registrasi.'
+    },
+    {
+        icon    : Num4,
+        title   : 'Siap untuk Bersekolah',
+        desct   : 'Ananda sudah siap untuk menjelajahi dunia yang baru dengan Cerdas, Kreatif, dan Ceria.',
+        image   : Kids
+    },
 ]

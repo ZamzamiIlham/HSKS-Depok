@@ -27,7 +27,10 @@ export default {
         "secondary": "#3D84FF",
         "green": "#04AB6B",
         "blue-soft":"#ECF7FF",
-        
+        "blue-strong-500":"#003797",
+        "blue-soft-500":"#0175C5",
+        "blue-opacity":"#3D78BC",
+        "cream":"#E5EEFD"  
       },
       screens:{
         'xl' : '1220px',
