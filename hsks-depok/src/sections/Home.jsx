@@ -22,7 +22,7 @@ const Home = () => {
                                 gap-8
                                 ">
                     {sosmedHome.map((btn)=>(
-                         <IconButton text={btn.title} image={btn.image} imageHov={btn.imageHov}>
+                         <IconButton text={btn.title} image={btn.image} imageHov={btn.imageHov} textColor={"text-gray"} hoverTextColor={"text-blue-500"} HoverBgColor={"border-blue-500"}>
                          </IconButton>
                     ))}
                 </div>   

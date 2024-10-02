@@ -1,10 +1,12 @@
-import { BannerSection, Benefit, ConnectWithUs, Contibution, Home, ListPorgram, Reason, SchoolPartners, TahapPendaftaran, Testimoni} from "./sections";
+import { BannerSection, Benefit, Cabang, ConnectWithUs, Contibution, Home, ListPorgram, Reason, SchoolPartners, TahapPendaftaran, Testimoni} from "./sections";
 import { Nav } from "./components";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return(
     <main className="relative my-5">
-      <Nav></Nav>
+      
+      <Nav/> 
       <Home/>
       <SchoolPartners/>
       <BannerSection/>
@@ -15,6 +17,7 @@ const App = () => {
       <ListPorgram/>
       <TahapPendaftaran/>
       <ConnectWithUs/>
+      <Cabang/>
     </main>
   )
 }

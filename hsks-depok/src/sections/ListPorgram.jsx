@@ -2,7 +2,7 @@ import { div, use } from "framer-motion/client"
 import { BestProgram } from "../constants"
 import { useEffect, useState } from "react"
 import { arrowLeft, arrowRight } from "../assets/icons/Sosmed"
-import { Waves } from "../assets/images"
+import { Particle, Particle2, Waves } from "../assets/images"
 
 const ListPorgram = () => {
   const [currentIndex,setCurrentIndex] = useState(0)
@@ -38,7 +38,8 @@ const ListPorgram = () => {
     currentIndex === 0 ? BestProgram.length -1 : currentIndex -1
   ))
   return (
-    <div className="bg-blue-soft rounded-tl-[8rem]">
+    <div className="bg-blue-soft rounded-tl-[8rem]"> 
+        <img src={Particle2} alt="" className="absolute w-[648px] h-[354px] rounded-tl-[8rem]"/> 
         <div className="max-container py-12 px-2">
         <div className="300 flex flex-col items-center justify-center gap-8">
             <h1 className="text-3xl font-bold">Program Unggulan HS Kak Seto</h1>

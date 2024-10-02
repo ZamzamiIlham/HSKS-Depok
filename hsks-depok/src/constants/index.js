@@ -1,13 +1,13 @@
 import { image, title } from "framer-motion/client";
 import { instagramGray,telegramGray,tiktokGray,whatsAppGray,youtubeGray } from "../assets/icons/Sosmed";
 import { instgram,Yt, Wa,Tiktok,Tele } from "../assets/icons/Sosmed";
-import { Asteristik, Benefit1, Benefit2, Benefit3, Benefit4, IconCheck, Kids, Num1, Num2, Num3, Num4, Testi1, Testi2 } from "../assets/images";
+import { Asteristik, Benefit1, Benefit2, Benefit3, Benefit4, cabangImage, IconCheck, Kids, Num1, Num2, Num3, Num4, Testi1, Testi2 } from "../assets/images";
 
 export const navLinks = [
     {href: "#tentang", label:"Tentang"},
     {href: "#program", label:"Program"},
     {href: "#Alumni", label:"Alumni"},
-    {href: "#Lokasi", label:"Lokasi"},
+    {href: "/Lokasi", label:"Lokasi"},
 ]
 
 export const sosmedHome = [
@@ -217,4 +217,20 @@ export const TahapPendaftaranItem = [
         desct   : 'Ananda sudah siap untuk menjelajahi dunia yang baru dengan Cerdas, Kreatif, dan Ceria.',
         image   : Kids
     },
+]
+
+
+export const CabangHsKsItem = [
+    {
+        image : cabangImage[0],
+        title : 'Pusat'
+    }, 
+    {
+        image : cabangImage[1],
+        title : 'Bekasi'
+    }, 
+    {
+        image : cabangImage[2],
+        title : 'Pekanbaru'
+    }, 
 ]

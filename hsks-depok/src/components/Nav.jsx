@@ -51,8 +51,8 @@ const Nav = () => {
                          transtition-transform duration-300 ease-in-out md:hidden`}
                          style={{width: "300px"}}>
           <ul className="flex flex-col gap-9 items-end">
-            {navLinks.map((item)=> (
-              <li key={item.label}>
+            {navLinks.map((item,index)=> (
+              <li key={index}>
                 <a href={item.href} onClick={closeMenu}>
                   {item.label}
                 </a>

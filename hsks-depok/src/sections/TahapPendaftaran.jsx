@@ -28,6 +28,7 @@ const TahapPendaftaran = () => {
                         </div>                
                     ))}
                 </div>
+                <button className="flex p-4 text-white bg-green rounded-xl">Konsultasi Sekarang</button>
             </div>
         </div>
     </div>

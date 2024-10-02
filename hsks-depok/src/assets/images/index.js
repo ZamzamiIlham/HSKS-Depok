@@ -24,12 +24,17 @@ import Testi2 from './Testimonies/Test2.png'
 import Asteristik from './Asterisk.png'
 import Waves from './Section/waves.png'
 import Waves2 from './Section/Waves2.png'
+import Particle2 from './Section/Particle.png'
 import Num1 from './Number/Num1.png'
 import Num2 from './Number/Num2.png'
 import Num3 from './Number/Num3.png'
 import Num4 from './Number/Num4.png'
 import Kids from './Kids.png'
 import Particle from './Particle.png'
+import Maps from './Maps.png'
+import Pekanbaru from './Cabang/Pekanbaru.png'
+import Bekasi from './Cabang/Bekasi.png'
+import Pusat from './Cabang/Pusat.png'
 
 export{
     BgImage,
@@ -49,8 +54,16 @@ export{
     Num3,
     Num4,
     Kids,
-    Particle
+    Particle,
+    Maps,
+    Particle2
 }
+
+export const cabangImage = [
+    Pusat,
+    Bekasi,
+    Pekanbaru
+]
 
 export const Crousal = [
     BriLogo,

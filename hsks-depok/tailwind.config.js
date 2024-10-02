@@ -25,7 +25,7 @@ export default {
       colors:{
         "primary": "#1A69F0",
         "secondary": "#3D84FF",
-        "green": "#04AB6B",
+        "green": "#30CD8C",
         "blue-soft":"#ECF7FF",
         "blue-strong-500":"#003797",
         "blue-soft-500":"#0175C5",

@@ -8,6 +8,7 @@ import Testimoni from "./Testimoni";
 import ListPorgram from "./ListPorgram";
 import TahapPendaftaran from "./TahapPendaftaran";
 import ConnectWithUs from "./ConnectWithUs";
+import Cabang from "./Cabang";
 
 export{
     Home,
@@ -19,5 +20,6 @@ export{
     Testimoni,
     ListPorgram,
     TahapPendaftaran,
-    ConnectWithUs
+    ConnectWithUs,
+    Cabang
 }

@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useRef } from "react"
 
-export default function IconButton({ children,image, imageHov, text, color, ...props}){
+export default function IconButton({ children,image, imageHov, text, textColor, hoverTextColor, bgColor, HoverBgColor, ...props}){
     const[hovered,setHovered] = useState(false)
     const ref = useRef(null)
     return(
@@ -11,7 +11,7 @@ export default function IconButton({ children,image, imageHov, text, color, ...p
         className=
             {   `btn__Sosmed flex flex-row
                 justify-center gap-2 border-2 px-6 py-2
-                rounded-full ${hovered? "border-primary": "border-gray-300"}`}
+                rounded-full ${hovered? HoverBgColor: bgColor}` }
         {...props}>
 
         <img src={hovered? image :imageHov}
@@ -24,7 +24,7 @@ export default function IconButton({ children,image, imageHov, text, color, ...p
             style={{width: hovered ? ref.current?.offsetWidth || 0 : 0}}
             className="overflow-x-hidden transition-all duration-700 ease-out">
                 <span ref={ref}
-                className={`${hovered? "text-primary" : "text-black"}`}>{text}</span>
+                className={`${hovered? hoverTextColor : textColor}`}>{text}</span>
             </div>     
         </button>
     )
