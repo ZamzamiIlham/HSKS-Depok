@@ -1,4 +1,4 @@
-import { BannerSection, Benefit, Cabang, ConnectWithUs, Contibution, Home, ListPorgram, Reason, SchoolPartners, TahapPendaftaran, Testimoni} from "./sections";
+import { BannerSection, Benefit, Cabang, ConnectWithUs, Contibution, CTASection, Home, ListPorgram, Reason, SchoolPartners, TahapPendaftaran, Testimoni} from "./sections";
 import { Nav } from "./components";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -18,6 +18,7 @@ const App = () => {
       <TahapPendaftaran/>
       <ConnectWithUs/>
       <Cabang/>
+      <CTASection/>
     </main>
   )
 }

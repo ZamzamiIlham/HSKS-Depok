@@ -9,6 +9,7 @@ import ListPorgram from "./ListPorgram";
 import TahapPendaftaran from "./TahapPendaftaran";
 import ConnectWithUs from "./ConnectWithUs";
 import Cabang from "./Cabang";
+import CTASection from "./CTA.JSX";
 
 export{
     Home,
@@ -21,5 +22,6 @@ export{
     ListPorgram,
     TahapPendaftaran,
     ConnectWithUs,
-    Cabang
+    Cabang,
+    CTASection
 }

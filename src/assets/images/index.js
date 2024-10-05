@@ -35,6 +35,7 @@ import Maps from './Maps.png'
 import Pekanbaru from './Cabang/Pekanbaru.png'
 import Bekasi from './Cabang/Bekasi.png'
 import Pusat from './Cabang/Pusat.png'
+import KakSeto from './KakSeto.png'
 
 export{
     BgImage,
@@ -56,7 +57,8 @@ export{
     Kids,
     Particle,
     Maps,
-    Particle2
+    Particle2,
+    KakSeto
 }
 
 export const cabangImage = [
