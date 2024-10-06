@@ -10,6 +10,7 @@ import TahapPendaftaran from "./TahapPendaftaran";
 import ConnectWithUs from "./ConnectWithUs";
 import Cabang from "./Cabang";
 import CTASection from "./CTA.JSX";
+import Footer from "./Footer";
 
 export{
     Home,
@@ -23,5 +24,6 @@ export{
     TahapPendaftaran,
     ConnectWithUs,
     Cabang,
-    CTASection
+    CTASection,
+    Footer
 }

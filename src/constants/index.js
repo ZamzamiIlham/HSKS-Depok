@@ -7,7 +7,12 @@ export const navLinks = [
     {href: "#tentang", label:"Tentang"},
     {href: "#program", label:"Program"},
     {href: "#Alumni", label:"Alumni"},
-    {href: "/Lokasi", label:"Lokasi"},
+    {href: "#Lokasi", label:"Lokasi", submenu:[
+        {href:"#Pusat", label:"Pusat"},
+        {href:"#Bekasi", label:"Bekasi"},
+        {href:"#Depok", label:"Depok"},
+        {href:"#Pekanbaru", label:"Pekanbaru"},
+    ]},
 ]
 
 export const sosmedHome = [
@@ -233,4 +238,23 @@ export const CabangHsKsItem = [
         image : cabangImage[2],
         title : 'Pekanbaru'
     }, 
+]
+
+export const alamatCabang = [
+    {
+        city : 'Pusat',
+        address : 'Jl. Raya Parigi Lama No.3A, Parigi, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15227'
+    },
+    {
+        city : 'Bekasi',
+        address : 'Jl. Puncak Cikunir No.5-6, Jakasampurna, Kec. Bekasi Bar., Kota Bks, Jawa Barat 17145'
+    },
+    {
+        city : 'Depok',
+        address : 'Jl. Putri Tunggal No.53, Harjamukti, Kec. Cimanggis, Kota Depok, Jawa Barat 16454'
+    },
+    {
+        city : 'Pekanbaru',
+        address : 'Jl. Letjend.S.Parman No.05, Suka Maju, Kec. Sail, Kota Pekanbaru, Riau 28131'
+    },
 ]

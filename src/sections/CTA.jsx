@@ -11,7 +11,7 @@ const CTASection = () => {
                         <h1 className="text-2xl md:text-4xl text-white font-bold text-center md:text-left">Rasakan keceriaan belajar <br /> bersama kami</h1>
                         <p className="text-md md:text-lg text-white text-center md:text-left max-w-[650px]">Ayo daftarkan diri Ananda sekarang untuk memulai pembelajaran yang Cerdas, Kreatif, dan Ceria. Klik tombol di bawah ini untuk bergabung!</p>
                     </div>
-                    <div className="flex flex-col gap-4 items-center">
+                    <div className="flex flex-col lg:flex-row gap-4 items-center">
                     <ButtonComponent
                     Label={"Daftar Sekarang"}
                     BgColor="bg-white"
